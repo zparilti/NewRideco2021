@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="Selenium Class Maven" parallel="classes" verbose="2">-->
+<suite name="Selenium Class Maven" verbose="2">
+    <test name="Smoke">
+        <classes>
+            <class name="Rideco.ca.Test.InputTest"></class>
+            <class name="Rideco.ca.Test.OutputTest">
+            </class>
+
+        </classes>
+    </test>
+</suite>

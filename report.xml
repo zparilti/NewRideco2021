@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="QA Screener" verbose="1">
+    <test name="QA Screener input">
+        <classes>
+            <class name="Rideco.ca.Test.InputTest"/>
+            <class name="Rideco.ca.Test.OutputTest"/>
+        </classes>
+    </test>
+</suite>
+        <!--command and question mark help to create comment-->
